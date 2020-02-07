@@ -1,0 +1,228 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "SamsungSharpSans",arial;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #d9d9d9;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.top{
+    display: flex;    
+    width: 1200px;        
+    font-size: 12px;
+    margin-top: 15px;
+    color: #ababab;
+}
+.cent{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;         
+}
+.desc{
+    display: flex;
+    justify-content: flex-start;
+}
+.center{
+    width: 1200px;    
+}
+.center_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.center_text h1,
+.center_text h2{
+    margin: 0;
+    padding: 0;
+    color: #000;   
+}
+.center_text h1{
+    font-size: 67px;
+    margin-top: 44px;
+}
+.center_text h2{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.center_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.cent_bottom{
+    width: 1200px;
+    margin-top: 183px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cent_bottom h1,
+.cent_bottom h3{
+    padding: 0;
+    margin: 0;
+}
+.cent_bottom h1{
+    font-size: 30px;
+}
+.cent_bottom h3{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.item_note{
+    width: 1200px;
+    margin-top: 80px;
+    display: flex;    
+    justify-content: space-between;
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    width: 260px;
+    height: 500px;
+    padding: 10px;
+}
+.note h1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    padding-top: 51px;
+}
+.note h2{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 85px;
+}
+.note a{    
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+}
+
+.text_note{
+    width: 925px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text_note h1,
+.text_note h2,
+.text_note h3,
+.text_note a{
+    padding: 0;
+    margin: 0;
+}
+.text_note h1{
+    font-size: 65px;    
+}
+.text_note h2{
+    font-size: 21px;    
+}
+.text_note pre{
+    font-size: 15px;    
+    font-weight: 100;
+}
+.text_note a{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+}
+
+.banner{
+    margin-top: 200px;
+}
+
+.banner2{
+    display: flex;
+    margin-top: 70px;
+    width: 1200px;
+}
+.text2 h1,
+.text2 h2,
+.text2 h3{
+    padding: 0;
+    margin: 0;
+}
+.text2{
+    margin-top: 50px;
+}
+.text2 h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.text2 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text2 h3{
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.text2 a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+
+.wid{
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.footer1{
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 2px solid #d9d9d9;
+    background-color: #f5f5f5;
+}
+.footer2{
+    height: 50px;
+    width: 100%;        
+    background-color: #525252;
+}
+
